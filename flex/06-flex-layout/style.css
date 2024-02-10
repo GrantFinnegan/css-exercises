@@ -5,6 +5,62 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  /* additions below */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* new entry */
+button {
+  padding: 8px 16px;
+}
+
+/* new entry */
+.header,.footer{
+  padding: 1em;
+
+  flex: 0 1 auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/* new entry */
+.footer {
+  background-color: #eeeeee;
+}
+
+/* new entry */
+.content {
+  flex: 0 1 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+/* new entry */
+.left-links,.right-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 1em;
+}
+
+/* new entry */
+a {
+  text-decoration: none;
+}
+a:link {
+  color: hsl(0, 0%, 60%);
+}
+a:visited {
+  color: black;
 }
 
 img {
