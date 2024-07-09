@@ -61,6 +61,12 @@
   grid-template-rows: repeat(4, 1fr);
 }
 
+.side-content,
+.photo {
+  display: grid;
+  align-items: center;
+}
+
 .sidebar .photo {
   background-color: white;
   color: black;
