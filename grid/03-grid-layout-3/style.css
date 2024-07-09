@@ -16,6 +16,7 @@
     "sidebar nav"
     "sidebar article"
     "footer footer";
+  min-height: 100vh;
 }
 
 .container div {
