@@ -32,12 +32,18 @@
   grid-area: header;
 
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 2fr 5fr;
 }
 
 /* new header section styling */
 .header .logo {
   text-align: left;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .menu ul,
