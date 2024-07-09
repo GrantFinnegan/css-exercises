@@ -98,6 +98,10 @@
   background-color: #bccbde;
   /* new */
   grid-area: article;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 200px;
 }
 
 .article p {
