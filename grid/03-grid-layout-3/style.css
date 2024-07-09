@@ -35,6 +35,11 @@
   grid-template-columns: 1fr 4fr;
 }
 
+/* new header section styling */
+.header .logo {
+  text-align: left;
+}
+
 .menu ul,
 .menu li {
   font-size: 16px;
